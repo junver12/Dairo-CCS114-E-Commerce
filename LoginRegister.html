@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" type="image/x-icon" href="gym.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "Header">
+        <div class = "Title">
+            <div class = "Dumbell"><i class="fa-solid fa-dumbbell"></i></div>
+            <pre class = "ProductTitle">Gear up for a <br>  Healthier Lifestyle</pre>
+        </div>	
+
+        <div class = "location">
+                <div class = "IconLocation"><i class="fa-solid fa-location-dot"></i></div>
+                <p class = "address">Mamatid Cabuyao Laguna</p>
+        </div>
+        
+        <div class = "navigation">
+            <ul>
+                <li><a href = "Fitness.html" alt = "_self">Home</a></li>
+                <li><a href = "" alt = "_self">About</a></li>
+                <li><a href = "LoginRegister.html" alt = "_self">Login</a></li>
+                <li><a href = "" alt = "_self">AddCart</a></li>
+            </ul>
+        </div>
+    </div>	
+
+    <div id="container-login">
+        <div id="Mytitle">
+            <i class="material-icons lock">lock</i> Login
+        </div>
+
+        <form>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color: #DDD">Remember Me</span>
+            </div>
+
+            <input type="submit" value="Log In" />
+        </form>
+
+        <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+        </div>
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Don't have an account yet?
+            <a href="#"><button id="register-link">Register here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

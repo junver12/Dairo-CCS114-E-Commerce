@@ -1,0 +1,463 @@
+body{
+	margin: 0;
+}
+.Header {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.navigation{
+	
+	margin-left: 50px;
+}
+
+li, a{
+	color:black;
+	font-family: "Bebas Neue", sans-serif;
+}
+.ProductTitle{
+	font-family: "Bebas Neue", sans-serif;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 23px;
+}
+
+.Dumbell{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 50px;
+	float: left;
+}
+.address{
+	font-size: 20px;
+	text-align: left;
+	font-family: "Bebas Neue", sans-serif;
+	margin-top: 50px;
+}
+.IconLocation {
+	float: left;
+	font-size: 20px;
+	margin-left: 105px;
+	margin-top: 50px;
+	font-family: "Bebas Neue", sans-serif;
+	color: red;
+}
+
+.MainContent{
+	display: grid;
+	grid-template-columns: 50%  35%;
+}
+
+.Gym{
+	width: 142%;
+	height: 100%;
+}
+.Welcome{
+	font-size: 65px;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+}
+.Statement{
+	font-size: 28px;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+}
+.LabelSocial{
+	font-size: 28px;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+}
+.SocialIcon{
+	display: grid;
+	grid-template-columns: 10% 10% 10%;
+}
+.Facebook, .Instagram, .Twitter{
+	font-size: 40px;
+	text-align: center;
+	margin-left: 450%;
+}
+.Facebook{
+	color:blue;
+}
+
+.Instagram{
+	color: Violet;
+}
+.Twitter{
+	color: Blue;
+}
+.Footer{
+	text-align: center;
+	margin-top: 3%;
+}
+.ScrollDown{
+	font-size: 20px;
+	font-family: "Bebas Neue", sans-serif;
+	
+}
+.arrow{
+	font-size: 26px;
+	color: black;
+}
+li, a{
+	list-style-type: none;
+	padding: 8px;
+	text-align: right;
+	font-size: 20px;
+	margin-top: 25px;
+	text-decoration: none;
+}
+li{
+	float:left;
+	text-align: right;
+}
+
+#TwoHeader{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.Shopping{
+	font-size: 50px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.TwoName{
+	font-size: 23px;
+	font-family: "Bebas Neue", sans-serif;
+}
+.TypeProduct{
+	font-size: 19px;
+	margin-top: 130px;
+	font-family: "Bebas Neue", sans-serif;
+	text-align: center;
+}
+.OFF{
+	font-family: "Bebas Neue", sans-serif;
+	text-align: right;
+	font-size: 50px;
+}
+
+.Img{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	width: 100%;
+}
+
+.productname{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	text-align: center;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 23px;
+}
+
+.Buttons{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	text-align: center;
+
+}
+.BuyOne, .BuyTwo, .BuyThree{
+	width: 35%;
+	height: 280%;
+	color: #ffff;
+	font-size: 16px;
+	background-color: #28a745;
+	border-radius: 25px;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.GymDumbell{
+	width:50%;
+	height:100%;
+	margin-left: 100px;
+}
+.Belt{
+	width:50%;
+	height: 100%;
+	text-align: center;
+	margin-left: 100px;
+}
+.Rope{
+	width:55%;
+	height:100%;
+	margin-left: 100px;
+}
+
+#Ratings{
+	margin-top: 50px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.star, .starTwo, .starThree{
+	font-size: 32px;
+	color: Yellow;
+	text-align: center;
+}
+
+.FooterSecond{
+
+	width:100%;
+	height: 60px;
+	text-align: center;
+}
+.ScrollDownSecond{
+	font-size: 20px;
+	font-family: "Bebas Neue", sans-serif;
+	
+}
+.arrowSecond{
+	font-size: 26px;
+	color: black;
+	
+}
+
+#ThreeHeader{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	
+}
+
+.TwoShopping{
+	font-size: 60px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+.ThreeFrame{
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 23px;
+	margin-left: 90px;
+	
+}
+.ThreeLabelProducts{
+	
+	height:100%;
+}
+.ThreeTypeProduct{
+	text-align: center;
+	font-size: 25px;
+	font-family: "Bebas Neue", sans-serif;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	
+}
+
+
+.ThreeOFF{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Bebas Neue", sans-serif;
+	margin-left: 120px;
+}
+.WheyPic{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.choco, .concentrado, .fanatic{
+	width:50%;
+	height:100%;
+	margin-left: 100px;
+}
+.Threeproductname{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.Item4, .Item5, .Item6{
+	text-align:center;
+	padding-left: 10px;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 20px;
+}
+.SecButtons{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.Button3, .Button4, .Button5{
+	text-align:center;
+	padding-left: 10px;
+	
+}
+.Buy3, .Buy4, .Buy5{
+	width: 35%;
+	height: 280%;
+	color: #ffff;
+	font-size: 16px;
+	background-color: #28a745;
+	border-radius: 25px;
+	font-family: "Bebas Neue", sans-serif;
+}
+#ThirdRatings{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin-top: 50px;
+	width: 100%;
+}
+.star3, .star4, .star5{
+	font-size: 32px;
+	color: Yellow;
+	text-align: center;
+}
+
+#FourHeader{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%
+}
+
+
+.ThreeShopping{
+	font-size: 60px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+.FourFrame{
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 23px;
+	margin-left: 90px;
+}
+
+.FourLabelProducts{
+	
+	height:100%;
+}
+.FourTypeProduct{
+	text-align: center;
+	font-size: 25px;
+	font-family: "Bebas Neue", sans-serif;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	
+}
+
+.FourOFF{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Bebas Neue", sans-serif;
+	margin-left: 120px;
+}
+
+
+
+.FirstItem{
+	gap: 20px;
+}
+
+
+.CardioEquipments{
+	
+	display: grid;
+	grid-template-columns: 30% 30% 30% 30%;
+	width:50%;
+	gap: 20%;
+	margin-left:50px;
+
+}
+.JumpingRope, .Watch, .MachineTredmill, .MachineBicycle{
+	width: 95%;
+}
+
+.JumpingRope{
+	width:100%;
+	height: 100%;
+}
+.Watch{
+	width:100%;
+	height: 100%;
+}
+
+.MachineTredmill{
+	width:100%;
+	height: 100%;
+}
+.MachineBicycle{
+	width:100%;
+	height: 100%;
+}
+.Fourthproductname{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+}
+
+.JumpingRope, .WatchHeart, .Schwinn830, .Indoor{
+	font-size: 20px;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.FourthButtons{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+}
+.Buy6, .Buy7, .Buy8, .Buy9{
+	width: 45%;
+	height: 280%;
+	color: #ffff;
+	font-size: 16px;
+	background-color: #28a745;
+	border-radius: 25px;
+	font-family: "Bebas Neue", sans-serif;
+}	
+#FourthRatings{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin-top: 50px;
+}
+.star6, .star7, .star8, .star9{
+	font-size: 32px;
+	color: Yellow;
+	text-align: center;
+}
+
+#FifthFrame{
+	background-color: Black;
+	margin-top:10%;
+	width:100%;
+	text-align: center;
+	
+}
+.Details{
+	font-size: 200%;
+	color:White;
+	font-family: "Bebas Neue", sans-serif;
+}
+.AboutItems{
+	width: 50%;
+	text-align: center;
+	
+}
+.AboutDescription{
+	font-size: 135%;
+	color:White;
+	font-family: "Bebas Neue", sans-serif;
+	text-align: center;
+}
+.Explanation{
+	font-size: 135%;
+	color:White;
+	font-family: "Bebas Neue", sans-serif;
+	text-align: center;
+}
+.IconsDescription{
+	color: white;
+	text-align: left;
+	font-size: 30px;
+	width: 60%;
+
+}
+.Telephone, .Message, .Delivery{
+	padding-top: 30px;
+	margin-left: 30px;
+	
+	
+}
